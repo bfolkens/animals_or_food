@@ -10,7 +10,7 @@ Cloudsight.oauth_options = {
 }
 
 requests = []
-$ARGV.each do |filename|
+$ARGV.shuffle.each do |filename|
   STDERR.puts "Sending '#{filename}'"
 
   requestData = Cloudsight::Request.send(locale: 'en', file: File.open(filename))
