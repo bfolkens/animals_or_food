@@ -1,6 +1,13 @@
 # Animals or Food
 
-See [blog post] and http://www.mirror.co.uk/news/weird-news/muffins-chihuahuas-bizarre-picture-quiz-7539743
+This toy example is part of the larger [blog post] from CloudSight on the topic,
+originally created by the viral Twitter posts from Karen Zack.
+
+* https://twitter.com/teenybiscuit/status/707727863571582978/photo/1
+* http://www.mirror.co.uk/news/weird-news/muffins-chihuahuas-bizarre-picture-quiz-7539743
+
+The script used to create the example is provided below, as is the exact build environment
+encompassed in a docker image.  Enjoy ;)
 
 ## Docker
 
